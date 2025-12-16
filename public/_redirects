@@ -1,0 +1,6 @@
+# Cloudflare Pages SPA路由重写规则
+# 这个规则会确保：
+# 1. 所有存在的文件和目录直接返回
+# 2. 所有不存在的路径重定向到index.html，由Vue Router处理
+
+/* /index.html 200
